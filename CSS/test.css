@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+  
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+}
+ 
+.head{                                    /* block head  */
+    width: 100%;
+    height: 200px;
+    background-color: aquamarine;
+}
+.head-boxA,.head-boxB{
+    width: 100%;
+    height: 70%;
+    background-color: black;
+}
+.head-boxB{
+    height: 30%;
+    background-color: red;
+}
+.boxA-head,.boxB-head{
+    width: 90%;
+    height: 100%;
+    /* background-color: blue; */
+    margin: 0 auto;
+}
+.boxA-head,.boxA-img{
+    width: 30%;
+    height: 100%;
+    background-color: blue;
+    margin: 0 auto;
+}
+.boxA-head,.boxA-img img{
+    width: 100%;
+    height: 100%;
+    background-color: bisque;
+}
+
